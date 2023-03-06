@@ -1,5 +1,36 @@
 <!doctype html>
 <html lang="en">
+
+
+<head>
+  <script>
+    var debugMode = true;
+  </script>
+  <script src="Hangman.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>All testing under here....</h1>
+  <div id="testingZone">
+    <h3 id="word">NULL</h3>
+  </div>
+
+
+</body>
+<script>
+  if (debugMode) {
+    pickRandomWord();
+    HideWord();
+    PushWordToId();
+    DebugTestKeyStrokes();
+  };
+</script>
+
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -46,4 +77,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
   </body>
+
 </html>
